@@ -14,9 +14,8 @@ int main()
     cin >> N;
  
     for (int i = 1; i <= N; i++)
-    {
         sum += i;
-    }
+    
     cout << "Сумма всех чисел от 1 до " << N << " равна: " << sum;
     
     return 0;
