@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    int a, b;
+    double a, b;
     char oper;
  
     cout << "Введите первое число: "; cin >> a;
