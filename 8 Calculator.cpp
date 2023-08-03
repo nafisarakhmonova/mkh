@@ -46,7 +46,7 @@ int main()
     cin >> b;
  
     switch (oper)
-	{
+    {
 	    case '+' :
 	        cout << addition(a, b);
 	        break;
@@ -62,7 +62,7 @@ int main()
 	    case '^' :
 	        cout << exponentiation(a, b);
 	        break;
-	}
+    }
 
     return 0;
 }
