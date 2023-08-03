@@ -16,7 +16,7 @@ int perimeterTriangle(int a, int b, int c) // a, b, c - стороны
 }
 
 // круг
-float circumferenceСircle(int r) // r - радиус
+float circumferenceCircle(int r) // r - радиус
 {
     float pi = 3.14;
     float cirCir = 2 * pi * r;
@@ -52,7 +52,7 @@ int main()
     {
         cout << "Введите значение радиуса r = ";
         cin >> r;
-        cout << "Длина С = " << circumferenceСircle(r);
+        cout << "Длина С = " << circumferenceCircle(r);
     }
     else
     {
