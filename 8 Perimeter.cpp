@@ -4,7 +4,7 @@ using namespace std;
 // прямоугольник
 int perimeterRectangle(int a, int b) // a-длина  b-ширина
 {
-    int perRect = 2*(a + b);
+    int perRect = 2 * (a + b);
     return perRect;
 }
 
