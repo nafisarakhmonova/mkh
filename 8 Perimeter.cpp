@@ -16,7 +16,7 @@ int perimeterTriangle(int a, int b, int c) // a, b, c - стороны
 }
 
 // круг
-float circumferenceCircle(int r) // r - радиус
+float circumferenceCircle(float r) // r - радиус
 {
     float pi = 3.14;
     float cirCir = 2 * pi * r;
@@ -25,7 +25,8 @@ float circumferenceCircle(int r) // r - радиус
  
 int main()
 {
-    int a, b, c, r;
+    int a, b, c;
+    float r;
     string figure;
     cout << "Введите фигуру\n(прямоугольник, треугольник, круг)" << endl;
     cin >> figure;
